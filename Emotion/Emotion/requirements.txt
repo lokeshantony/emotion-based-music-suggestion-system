@@ -1,0 +1,27 @@
+pip install imutils
+pip install keras==2.3.1
+pip install tensorflow==1.14.0
+pip install playsound
+pip install openvcv-python
+pip install h5py==2.10.0
+
+
+
+1-Upgrade tensorflow:
+
+pip install --user --upgrade tensorflow-gpu
+(there might be some missing packages, just pip install them)
+
+2-Upgrade Tensorboard
+
+pip install --user --upgrade tensorboard
+(there might be some missing packages, just pip install them)
+
+3-Downgrade Keras
+
+pip install keras==2.3.1
+(latest version working for me)
+
+4-Downgrade tensorflow-gpu
+
+pip install --user --upgrade tensorflow-gpu==1.14.0
